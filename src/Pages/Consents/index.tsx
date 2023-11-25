@@ -1,7 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const Consents = () => {
+
+    const {i18n , t} = useTranslation();
+    
     return(
         <>
-            Consent Portal
+            {t("consents.demo")}
         </>
     )
 }
