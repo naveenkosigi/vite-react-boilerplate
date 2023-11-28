@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+.eslintcache
+pre-commit
 
 # Editor directories and files
 .vscode/*
