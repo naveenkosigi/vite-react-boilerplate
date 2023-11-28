@@ -11,7 +11,8 @@ const router = createBrowserRouter(
       <Route
         path="/consents"
         Component={LazyLoadComponent("../Pages/Consents")}
-      ></Route>
+      />
+      <Route path="/Login" Component={LazyLoadComponent("../Pages/Login")} />
     </>
   )
 );
